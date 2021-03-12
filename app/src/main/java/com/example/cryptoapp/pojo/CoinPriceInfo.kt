@@ -15,7 +15,7 @@ val market:String?,
 @SerializedName("FROMSYMBOL")
 @Expose
 @PrimaryKey
-val fromSymbol:String?,
+val fromSymbol:String,
 @SerializedName("TOSYMBOL")
 @Expose
 val toSymbol:String?,
