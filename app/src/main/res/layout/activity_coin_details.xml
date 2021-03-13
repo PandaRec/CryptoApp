@@ -192,25 +192,25 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/textViewDetailsLabelPrice" />
+        app:layout_constraintTop_toBottomOf="@id/textViewDetailsPrice" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/textViewLabelMin" />
+        app:layout_constraintTop_toBottomOf="@id/textViewDetailsMin" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/textViewLabelMax" />
+        app:layout_constraintTop_toBottomOf="@id/textViewDetailsMax" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/textViewLabelLastDeal" />
+        app:layout_constraintTop_toBottomOf="@id/textViewDetailsLastDeal" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
