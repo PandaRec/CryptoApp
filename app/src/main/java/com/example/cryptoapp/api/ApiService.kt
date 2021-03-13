@@ -12,7 +12,7 @@ interface ApiService {
     @GET("top/totalvolfull")
     fun getTopCoinsInfo(
             @Query(QUERY_PARAM_API_KEY) apiKey:String=(R.string.API_KEY).toString(),
-            @Query(QUERY_PARAM_LIMIT) limit:Int=10,
+            @Query(QUERY_PARAM_LIMIT) limit:Int=50,
             @Query(QUERY_PARAM_TO_SYMBOL) tSym:String= CURRENCY
             ): Single<CoinInfoListOfData>
 

@@ -9,8 +9,8 @@ import com.example.cryptoapp.pojo.CoinPriceInfo
 
 @Dao
 interface CoinPriceInfoDao {
-    @Query("select * from full_price_list order by lastUpdate")
-    fun getPriceList():LiveData<CoinPriceInfo>
+    @Query("select * from full_price_list order by lastUpdate desc")
+    fun getPriceList():LiveData<List<CoinPriceInfo>>
 
     @Query("select * from full_price_list where fromSymbol==:fSym")
     fun getPriceInfoAboutCoin(fSym:String):LiveData<CoinPriceInfo>
