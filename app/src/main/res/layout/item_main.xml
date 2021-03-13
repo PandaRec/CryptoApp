@@ -21,7 +21,6 @@
             android:id="@+id/textViewTitle"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            tools:text="fwfwerf"
             app:layout_constraintTop_toTopOf="@id/imageViewIcon"
             app:layout_constraintBottom_toBottomOf="@id/imageViewIcon"
             app:layout_constraintStart_toEndOf="@id/imageViewIcon"
@@ -38,7 +37,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:textSize="24sp"
             android:gravity="center"
-            tools:text="wfrfer"
             android:textColor="@color/black"/>
         <TextView
             android:id="@+id/textViewDetailsLastUpdate"
@@ -48,7 +46,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:gravity="end"
-            tools:text="rferfe"
             android:textSize="20sp"
             android:textColor="@color/black"/>
 
